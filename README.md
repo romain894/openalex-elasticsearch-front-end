@@ -1,8 +1,8 @@
-# React + Vite
+# OpenAlex ElasticSearch front-end
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Front-end to be used with the API + ElasticSearch back-end [https://github.com/romain894/openalex-elasticsearch](https://github.com/romain894/openalex-elasticsearch)
 
-Currently, two official plugins are available:
+This project allows to search for works from a text string.
+The back-end works with FastAPI and ElasticSearch, and use the k-nearest neighbor search with the embeddings previously ingested in ElasticSearch.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Romain THOMAS 2024
